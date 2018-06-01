@@ -18,6 +18,7 @@ header  {
   align-content: center;
   height: 69px;
   border-bottom: 1px solid seashell;
+  background-color: black;
 }
 
 header img  {
@@ -34,5 +35,28 @@ a  {
   color: seashell;
   font-family: helvetica;
   font-size: 24px;
+  padding: 10px;
+}
+
+.mission  {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  height: 700px;
+  width:1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  margin: 70px auto;
+}
+
+.statement  {
+  background-color: black;
+  margin: auto;
+  width: 100%;
+}
+
+.statement h4, .statement h2  {
+  display: block;
+  width: 1200px;
+  margin: 0;
   padding: 10px;
 }
