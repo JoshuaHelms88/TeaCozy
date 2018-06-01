@@ -83,3 +83,36 @@ a  {
   height: 200px;
   width: 300px;
 }
+
+.locations    {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+  margin: auto;
+}
+
+.addresses  {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 5px;
+  margin: auto;
+  width: 1200px;
+}
+
+.address {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.copy {
+  text-align: left;
+  left: 20px;
+}
