@@ -7,6 +7,12 @@ body  {
   text-align: center;
 }
 
+h2, h3, h4  {
+  margin: 0;
+  padding: 10px;
+  margin: auto;
+}
+
 header  {
   position: fixed;
   top: 0;
@@ -57,6 +63,23 @@ a  {
 .statement h4, .statement h2  {
   display: block;
   width: 1200px;
-  margin: 0;
-  padding: 10px;
+}
+
+.menu  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.item  {
+  padding: 5px;
+}
+
+.item img  {
+  height: 200px;
+  width: 300px;
 }
